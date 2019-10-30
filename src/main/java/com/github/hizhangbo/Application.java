@@ -10,6 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @NacosPropertySource(
         dataId = "sample",
+        groupId = "dev",
         autoRefreshed = true,
         type = ConfigType.PROPERTIES,
         first = true
